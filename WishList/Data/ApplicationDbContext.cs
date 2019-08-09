@@ -3,11 +3,11 @@ using WishList.Models;
 
 namespace WishList.Data
 {
-    public class ApplivationDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
         public DbSet<Item> Items { get; set; }
 
-        public ApplivationDbContext(DbContextOptions options) : base(options)
+        public ApplicationDbContext(DbContextOptions options) : base(options)
         {
         }
     }
