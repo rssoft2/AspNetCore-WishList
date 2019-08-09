@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace WishList.Controller
+namespace WishList.Controllers
 {
-    public class HomeController : Microsoft.AspNetCore.Mvc.Controller
+    public class HomeController : Controller
     {
         public IActionResult Index()
         {
